@@ -3,3 +3,10 @@ line2 <- c(2,5,7,8,9,10)
 
 plot(line1, type = "l", col = "blue")
 lines(line2, type="l", col = "red")
+
+
+# Create a vector of pies
+x <- c(10,20,30,40)
+
+# Display the pie chart
+pie(x)
