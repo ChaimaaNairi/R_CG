@@ -1,3 +1,7 @@
-ggplot(myData, aes(x=col1)) +
-geom_histogram() + # map x and y as points
-labs(title="Histogram for a random variable", x="my variable", y="Count")
+perc=c(50,70,35,25)
+barplot(height=perc,
+names.arg=c("CpGi","exon","CpGi","exon"),
+ylab="percentages",main="imagine %s",
+col=c("red","red","blue","blue"))
+legend("topright",legend=c("test","control"),
+fill=c("red","blue"))
