@@ -22,3 +22,7 @@ log_values <- c(TRUE, FALSE, TRUE, FALSE)
 
 log_values
 
+#To repeat vectors, use the rep() function:
+repeat_each <- rep(c(1,2,3), each = 3) # nolint: commas_linter.
+
+repeat_each
