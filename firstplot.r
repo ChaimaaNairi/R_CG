@@ -4,4 +4,4 @@ names.arg=c("CpGi","exon","CpGi","exon"),
 ylab="percentages",main="imagine %s",
 col=c("red","red","blue","blue"))
 legend("topright",legend=c("test","control"),
-fill=c("red","blue"))
+fill=c("red","blue")) 
