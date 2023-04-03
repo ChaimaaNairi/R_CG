@@ -1,5 +1,5 @@
 # Vector of strings
-fruits <- c("banana", "apple", "orange")
+numbers <- c("1", "2", "3")
 
-# Print fruits
-fruits
+# Print numbers
+numbers
