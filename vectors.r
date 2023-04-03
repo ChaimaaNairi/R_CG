@@ -42,4 +42,9 @@ zeros
 ones <- vector("numeric", length = 10) + 1
 ones
 
+#To create a vector of NA values, use the vector() function:
+na_values <- vector("numeric", length = 10) + NA
+na_values
+
+#To create a vector of NA values, use the vector() function:
 
