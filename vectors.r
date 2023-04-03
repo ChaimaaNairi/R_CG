@@ -50,3 +50,6 @@ na_values
 na_values2 <- vector("numeric", length = 10) + NA
 na_values2
 
+#To create a vector of NA values, use the vector() function:
+na_values3 <- vector("numeric", length = 10) + NA
+na_values3
