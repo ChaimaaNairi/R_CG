@@ -39,3 +39,7 @@ zeros <- vector("numeric", length = 10)
 zeros
 
 #To create a vector of ones, use the vector() function:
+ones <- vector("numeric", length = 10) + 1
+ones
+
+
