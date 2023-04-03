@@ -14,10 +14,10 @@ class(x)
 x <- 9i + 3
 class(x)
 
-# character/string
+# character/string # nolint
 x <- "R is exciting"
 class(x)
 
-# logical/boolean
+# logical/boolean # nolint
 x <- TRUE
 class(x)
