@@ -6,6 +6,8 @@ numbers
 
 sort(numbers) # Sort numbers
 
+# Access the first item (numbers)
+numbers[1]
 
 # Vector with numerical decimals in a sequence
 numbers1 <- 1.5:6.5
