@@ -5,6 +5,32 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+
+        {
+            "type": "R-Debugger",
+            "name": "Launch R-Workspace",
+            "request": "launch",
+            "debugMode": "workspace",
+            "workingDirectory": ""
+        },
+
+        {
+            "type": "R-Debugger",
+            "name": "Debug R-Package",
+            "request": "launch",
+            "debugMode": "workspace",
+            "workingDirectory": "",
+            "includePackageScopes": true,
+            "loadPackages": [
+                "."
+            ]
+        },
+        {
             "type": "R-Debugger",
             "name": "Launch R-Workspace",
             "request": "launch",
