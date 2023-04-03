@@ -32,3 +32,10 @@ repeat_each
 repeat_times <- rep(c(1,2,3), times = 3)
 
 repeat_times
+
+
+#To create a vector of zeros, use the vector() function:
+zeros <- vector("numeric", length = 10)
+zeros
+
+#To create a vector of ones, use the vector() function:
