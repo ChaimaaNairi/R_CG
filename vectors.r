@@ -26,3 +26,9 @@ log_values
 repeat_each <- rep(c(1,2,3), each = 3) # nolint: commas_linter.
 
 repeat_each
+
+
+#Repeat the sequence of the vector:
+repeat_times <- rep(c(1,2,3), times = 3)
+
+repeat_times
